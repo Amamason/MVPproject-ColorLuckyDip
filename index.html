@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+<title>Color Lucky Dip</title>
+<link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+
+<!-- app logo-->
+<div id="logo" class="logo">
+	<img id="Group_1" src="/img/logo-vector.png"></svg>
+</div>
+
+
+<!-- swatch for recieving api random color-->
+<div id="swatch">
+	<div id="clr"></div>
+</div>
+
+<!-- nav for buttons to refresh, clear and save artwork-->
+<div id = "navigation">
+	<button class="choose">new colour</button>
+	<button class="clear">clear</button>
+	<button class="save">save</button>
+	<input id="lineWidth" type="number" value="5">
+	<p1 class="line-selector">line width</p1>
+</div>
+
+<h1 id = colTitle>Color Name</h1>
+
+<!-- drawing canvas-->
+<canvas id="canvas" width="1000" height="1000"></canvas>
+
+
+<script src="index.js"></script>
+</body>
+</html>

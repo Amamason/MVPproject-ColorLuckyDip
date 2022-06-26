@@ -1,0 +1,142 @@
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 1;
+	--web-view-id: Web_1920__1;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1920__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#canvas {
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	background-color: rgb(246, 243, 243);
+}
+
+#logo {
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	z-index: 4;
+}
+
+#navigation {
+	display: grid;
+	position: absolute;
+	margin-top: 3px;
+	columns: 1;
+	padding: 5px;
+	align-items: center;
+	width: 200px;
+	border-radius: 5px;
+
+}
+.choose {
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-left: 50px;
+	background-color: rgb(59, 189, 241);
+	color: white;
+	padding: 5px;
+	transition: transform .5s;
+	font-size: .7em;
+	line-height: 1em;
+	font-weight: bold;
+}
+.choose:hover{
+  transform: scale(1.2);
+}
+
+  .save{
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-left: 50px;
+	background-color: rgb(253, 158, 42);
+	color: white;
+	padding: 5px;
+	transition: transform .5s;
+	font-size: .7em;
+	line-height: 1em;
+	font-weight: bold;
+  }
+  .save:hover{
+	transform: scale(1.2);
+  }
+  
+  .clear{
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-left: 50px;
+	background-color: rgb(4, 198, 156);
+	color: white;
+	padding: 5px;
+	transition: transform .5s;
+	font-size: .7em;
+	line-height: 1em;
+	font-weight: bold;
+  }
+  .clear:hover{
+	transform: scale(1.2);
+  }
+  
+  #lineWidth {
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-left: 50px;
+	background-color: rgb(248, 45, 228);
+	color: white;
+	text-align: center;
+	padding: 5px;
+	transition: transform .5s;
+	font-size: .7em;
+	line-height: 1em;
+	font-weight: bold;
+  }
+  #lineWidth:hover{
+	transform: scale(1.2);
+  }
+.line-selector {
+	font-size: .7em;
+	color: rgb(249, 60, 230);
+	align-items: center;
+	margin-left: 85px;
+	padding: 5px;
+	font-family: sans-serif;
+	font-weight: bolder;
+
+}
+  #swatch {
+	  display: grid;
+	  position: relative;
+	  columns: 1;
+	  margin-top: 250px;
+	  margin-left: 70px;
+	  width: 100px;
+	  height: 100px;
+	  background-color: white;
+	  border-radius: 6px;
+  }
+
+ #clr {
+	  width: 100px;
+	  background-color: white;
+	  transition: transform .5s;
+  }
+  #clr:hover{
+	transform: scale(1.2);
+  }
+
+  #colTitle {
+	  position: relative;
+	  margin-top: 200px;
+	  margin-left: 40px;
+	  font-family: 'Caveat', cursive;
+	  font-size: 40pt;
+  }
